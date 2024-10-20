@@ -1,0 +1,292 @@
+/* src/Navbar.css */
+*{
+  /* height: 100%;
+  width: 100%; */
+  /* box-sizing: border-box; */
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: white;
+  height: 20px;
+  width: 100%;
+  
+}
+
+.logo {
+  font-size: 5px;
+  font-weight: bold;
+  height: 30;
+  width: 20;
+}
+
+.dropdowns {
+  display: flex;
+  gap: 18px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropbtn {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.navbar-button {
+  background-color: #224aff;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size:16px;
+}
+
+.navbar-button:hover {
+  background-color: #e64a19;
+}
+.container{
+font-size: 43px;
+
+}
+.container.colorr{
+ color: #224aff;
+}
+.para{
+  font-size: 20px;
+}
+.textbox{
+  max-width: 600px; /* Max width for the container */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Padding around the container */
+  background-color: white; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.email-input-container {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  font-size: 40px; 
+}
+.email-button {
+  padding: 20x ; 
+  background-color: #224aff; 
+  color: white;
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer;
+  /* font-size: 25px; */
+  /* height: 35px;
+  width: 60px; */
+  border-radius: 3px;
+}
+.heading2{
+  font-size: 21px;
+  font-weight:25px ;
+  margin-bottom:70px ;
+}
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px; /* Space between images */
+}
+
+.image-gallery img {
+  width: 100; /* Make images responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+.heading3{
+  font-size: 21px;
+  font-weight:25px ;
+  margin-top: 70px;
+}
+
+
+.numbers {
+  margin-left: 170px;
+  display: flex; /* Use flexbox for inline arrangement */
+  justify-content: center; /* Space between containers */
+  width: 75%; /* Adjust as needed */
+}
+
+.numbers span {
+  
+  background-color: rgb(196, 193, 193); 
+  color: rgb(0, 0, 0); 
+  width: 200px; 
+  height: 150px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  margin: 5px;
+  font-weight: 400;
+  font-size: 80px;
+ 
+}
+.heading4{
+  font-size: 25px;
+  font-weight:25px ;
+  margin-top: 70px;
+  width: 60%;
+  margin-left: 250px;
+  color: #3c3c3c;
+}
+
+
+.contents-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between each content block */
+}
+
+.contents-blocks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px; /* Space between the image and the text */
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contents-blocks.reverse {
+  flex-direction: row-reverse; /* Reverse order for the image and text */
+}
+
+.texts {
+  width: 55%; /* Text takes 55% of the total width */
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+.contents-blocks img {
+  width: 40%; /* Image takes 40% of the total width */
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+
+.section {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Space between sections */
+}
+
+.text-rr {
+  flex: 1;
+  padding: 20px;
+}
+
+.image-rr {
+  flex: 1;
+  
+}
+
+.image-rr img {
+  width: 100%; /* Make images responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Optional: rounded corners */
+  max-width: 1200px;
+}
+
+.reversed {
+  flex-direction: row-reverse; /* Reverse the order for the second section */
+}
+
+
+.unique-footer {
+  background-color: #444; /* Slightly lighter for differentiation */
+  color: white;
+  padding: 20px;
+}
+
+.footer-inner {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.footer-divider {
+  width: 2px; /* Slightly thicker */
+  background-color: white;
+  height: 60px; /* Adjust the height as needed */
+  margin-right: 20px;
+}
+
+.footer-columns {
+  display: flex;
+  flex-grow: 1; /* Take up remaining space */
+}
+
+.footer-column {
+  flex: 1;
+  padding: 0 10px; /* Add horizontal padding */
+}
+
+.footer-column h4 {
+  margin: 0 0 10px;
+}
+
+.footer-column hr {
+  border: none;
+  height: 2px;
+  background-color: white;
+  margin: 0 0 10px;
+}
+
+.footer-copyright {
+  text-align: center;
+  margin-top: 20px;
+}
